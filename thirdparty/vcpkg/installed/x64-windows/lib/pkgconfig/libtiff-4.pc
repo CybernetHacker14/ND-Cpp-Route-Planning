@@ -1,0 +1,11 @@
+prefix=C:/dev/vcpkg/packages/tiff_x64-windows
+exec_prefix=C:/dev/vcpkg/packages/tiff_x64-windows
+libdir=C:/dev/vcpkg/packages/tiff_x64-windows/lib
+includedir=C:/dev/vcpkg/packages/tiff_x64-windows/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.1.0
+Libs: -LC:/dev/vcpkg/packages/tiff_x64-windows/lib -ltiff
+Libs.private: 
+Cflags: -IC:/dev/vcpkg/packages/tiff_x64-windows/include
