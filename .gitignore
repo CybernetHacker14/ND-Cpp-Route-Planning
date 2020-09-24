@@ -4,9 +4,11 @@
 # All of the libraries in vcpkg folder are stored in folders like lib and bin, with extensions like .dll and .lib
 # Hence to not let any of those files get ignored, this .gitignore file doesn't include conventional exclusions like bin, lib, .dll, .lib
 # Rather the entire directory and the files inside _solutiondir will be ignored, because they will be created using the files and the toolchain scripts
-# present in vcpkg folder.
+# present in vcpkg folder. Also after building, if you want to keep your repo clean, manually delete the 'lib' folder which gets generated after build, in 
+# the outermost directory.
 
-# TLDR:- DO NOT PUT STUFF LIKE bin, lib, .dll, .lib in .gitignore.
+# TLDR:- DO NOT PUT STUFF LIKE bin, lib, .dll, .lib in .gitignore. Delete the unnecessary folders manually ,on outermost level of the repo,
+# if a commit needs to be pushed.
 
 _solutiondir/
 !thirdparty/vcpkg/*
