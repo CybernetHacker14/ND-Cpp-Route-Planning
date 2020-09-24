@@ -51,4 +51,4 @@ project, and run it.
 
 <ins>**Screenshot**</ins>
 
-TODO: Insert png here
+![Screenshot 1](map.png)
