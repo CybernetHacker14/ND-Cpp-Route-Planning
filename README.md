@@ -19,14 +19,14 @@ cmake toolchain file already setup.
 
 ***
 
-<ins>**Cloning**</ins>
+<ins>**Cloning:**</ins>
 
 Clone this project to a local destination using git:
 `git clone --recursive https://github.com/CybernetHacker14/ND-Cpp-Route-Planning`
 
 ***
 
-<ins>**Pre-requisites**</ins>
+<ins>**Pre-requisites:**</ins>
 
 In order to generate the solution files, the following softwares need to be installed.
 
@@ -36,7 +36,7 @@ In order to generate the solution files, the following softwares need to be inst
 
 ***
 
-<ins>**Installation**</ins>
+<ins>**Installation:**</ins>
 
 1. Please check the [.gitignore](https://github.com/CybernetHacker14/ND-Cpp-Route-Planning/blob/master/.gitignore)
 note, as it contains vital information.
@@ -49,6 +49,6 @@ project, and run it.
 
 ***
 
-<ins>**Screenshot**</ins>
+<ins>**Screenshot:**</ins>
 
 ![Screenshot 1](map.png)
