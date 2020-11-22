@@ -40,7 +40,7 @@ In order to generate the solution files, the following softwares need to be inst
 
 1. Please check the [.gitignore](https://github.com/CybernetHacker14/ND-Cpp-Route-Planning/blob/master/.gitignore)
 note, as it contains vital information.
-2. Create a folder named '_solutiondir' in the outermost level of the repo, where the src and CMakeLists.txt files exists.
+2. Create a folder named `_solutiondir` in the outermost level of the repo, where the src and CMakeLists.txt files exists.
 3. Inside that folder, open a PowerShell window and run the command `cmake --config "-DCMAKE_TOOLCHAIN_FILE=thirdparty\vcpkg\scripts\buildsystems\vcpkg.cmake" ..`  
 4. Copy the [map.osm](https://github.com/CybernetHacker14/ND-Cpp-Route-Planning/blob/master/map.osm) file inside this folder.
 
